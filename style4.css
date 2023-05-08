@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.main4{
+    background: rgba(0,0,0,0.7);
+    height: 100vh;
+    width: 100vw;
+    
+}
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: #440909;
+    /* border: 2px solid green; */
+}
+#btn3{
+    height: 100%;
+    width:15% ;
+    background-color: #440909;
+    border: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: #440909;
+    font-size: xx-large;
+}
+
+.video4{
+    height: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    bottom: 0;
+    width: 100vw;
+    object-fit: cover;
+}
+@media (min-aspect-ration:16/9){
+    .video2{
+        width: 100%;
+    
+        height: auto;
+    }
+}
+@media (max-aspect-ration:16/9){
+    .video2{
+        width: auto;
+        height: 100%;
+    }
+}
